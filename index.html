@@ -21,33 +21,43 @@
 <div class="container-fluid">
 <div class="row">
     <div class="col-md-4 col-sm-12">
-        <form>
+        <form class="myform"> 
             <div class="post">
-                <div class="post__author"><img src="assets/images/author1.jpeg"></div>
+                <div class="post__author"><img src="assets/images/default.png" class="post__author--image"></div>
                 <label for="author" class="post__author--select">
                         <select name="author" id="author" class="create__select">
-                          <option value="uk.png">Seleccione una foto</option>
-                          <option value="she.jpg">Margot Robbie</option>
-                          <option value="he.jpg">Ryan Reynolds</option>
-                          <option value="mr.jpg">Barack Obama</option>
-                          <option value="fl.jpg">Florcita Motuda</option>
+                          <option value="default.png">Seleccione una foto</option>
+                          <option value="author1.jpeg">Comiendo</option>
+                          <option value="author2.jpeg">Naturaleza</option>
+                          <option value="author3.jpeg">Burrito</option>
+                          <option value="author4.png">Helado</option>
                         </select>
                 </label>
                 <br>
-            <textarea name="post" id="post__text" cols="30" rows="10"></textarea>
+            <textarea name="post" class="post__text" cols="30" rows="6"></textarea>
             <br>
             <input class="post__enviar" type="submit" value="Enviar">
             </div>
         </form>
     </div>
-    <div class="col-md-8 col-sm-12">
+    <div class="col-md-8 col-sm-12 board">
+        <div class="posted">
+            <div class="media">
+                <div class="media-left">
+                <img class="media-object author" src="assets/images/author3.jpeg" alt="">
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">Pusheen</h3>
+                <p>Intentando realizar mi prueba de Desafío Latam</p>
+            </div>    
+        </div>
 
     </div>
 </div>
 </div>  
 
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
-<script src="js.js"></script>
+<script type="text/javascript" src="js.js"></script>
 </body>
 </html>
