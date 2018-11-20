@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Pusheener</title>
 </head>
@@ -23,16 +24,7 @@
     <div class="col-md-4 col-sm-12">
         <form class="myform"> 
             <div class="post">
-                <div class="post__author"><img src="assets/images/default.png" class="post__author--image"></div>
-                <label for="author" class="post__author--select">
-                        <select name="author" id="author" class="create__select">
-                          <option value="default.png">Seleccione una foto</option>
-                          <option value="author1.jpeg">Comiendo</option>
-                          <option value="author2.jpeg">Naturaleza</option>
-                          <option value="author3.jpeg">Burrito</option>
-                          <option value="author4.png">Helado</option>
-                        </select>
-                </label>
+                <div class="post__author"><img src="assets/images/author1.jpeg" class="post__author--image"></div>
                 <br>
             <textarea name="post" class="post__text" cols="30" rows="6"></textarea>
             <br>
@@ -44,11 +36,18 @@
         <div class="posted">
             <div class="media">
                 <div class="media-left">
-                <img class="media-object author" src="assets/images/author3.jpeg" alt="">
+                <img class="media-object author" src="assets/images/author1.jpeg" alt="">
             </div>
             <div class="media-body">
+                <a class="close">
+                    <i class="far fa-times-circle"></i>
+                </a>
                 <h3 class="media-heading">Pusheen</h3>
                 <p>Intentando realizar mi prueba de Desafío Latam</p>
+                <span class="posted__counter">0</span>
+                <a href="#" class="posted__like">
+                    <i class="far fa-heart"></i>
+                </a>
             </div>    
         </div>
 

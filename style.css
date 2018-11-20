@@ -9,5 +9,30 @@
     margin: auto;
 }
 .posted {
-    
+    background-color: lightcyan;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.posted__likered {
+    color: tomato;
+  
+  
+}
+.posted__like {
+   font-size: 2em;
+    color: grey;
+   
+
+}
+.close {
+    color:grey;
+    font-size: 2em;
+    float: right;
+}
+.myform {
+    background-color: lightcyan;
+    padding: 15px;
+}
+.post__author {
+    border
 }
