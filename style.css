@@ -1,3 +1,6 @@
+body {
+    background-image: url(assets/images/leaves.png)
+}
 .navbar {
     padding: 20px;
 }
@@ -8,6 +11,7 @@
   display: inline-block;
     margin: auto;
 }
+
 .posted {
     background-color: lightcyan;
     padding: 10px;
@@ -33,6 +37,9 @@
     background-color: lightcyan;
     padding: 15px;
 }
-.post__author {
-    border
+.author {
+    max-width: 150px;
+}
+.post__text {
+    color: grey;
 }
